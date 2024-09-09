@@ -24,6 +24,7 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "sort-by": "^1.2.0",
+    "sweetalert2": "^11.13.3",
     "three": "^0.168.0",
     "three-stdlib": "^2.32.2"
   },
