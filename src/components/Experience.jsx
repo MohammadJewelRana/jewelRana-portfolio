@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
  
 import {
   VerticalTimeline,
@@ -9,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
 import { experiences } from "../constants";
-import { SectionWrapper } from "../hoc";
+// import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
@@ -69,14 +70,16 @@ const Experience = () => {
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
-        <VerticalTimeline>
+    
+      
+       <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />
           ))}
-        </VerticalTimeline>
+        </VerticalTimeline> 
       </div>
     </>
   );

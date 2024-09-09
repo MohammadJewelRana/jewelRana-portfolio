@@ -15,7 +15,7 @@ const Tech = () => {
           What I have learned so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-         Skill-set.
+        Technical Skill
         </h2>
       </motion.div>
 
