@@ -30,6 +30,8 @@ const Navbar = () => {
 
   const handleDownload = () => {
     const resumeUrl = '/Md_Jewel_Rana.pdf';  
+    console.log('');
+    
 
     const link = document.createElement('a');
     link.href = resumeUrl;
@@ -85,7 +87,7 @@ const Navbar = () => {
             title="Resume Download"  onClick={handleDownload}
           >
             <FaDownload className="mr-2" />
-            Resume
+            CV
           </button>
         </div>
 
